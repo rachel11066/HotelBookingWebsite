@@ -1,0 +1,39 @@
+.navbar{
+    height: 90px;
+    background-color: #231F20;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    height: 160px;
+    margin-right: -30px;
+}
+
+.logo{
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+}

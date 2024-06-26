@@ -1,0 +1,48 @@
+.fr {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.frItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frImg{
+    width: 100%;
+}
+
+.frName{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frPax{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.frPrice{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.frRating>Button{
+    background-color: rgb(0, 46, 87);
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.frRating>span{
+    font-size: 14px;
+}
