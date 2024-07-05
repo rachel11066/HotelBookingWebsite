@@ -46,7 +46,7 @@ const Hotel = () => {
                         Includes breakfast and dinner
                     </span>
                     <div className="roomImages">
-                        {/*include VR here*/}
+                    <iframe width="560" height="315" src="https://my.matterport.com/show/?m=nSMN9ne1LEL&play=1&qs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         {photos.map(photo=>(
                             <div className="roomImgWrapper">
                                 <img src={photo.src} alt="" className="roomImg"/>
